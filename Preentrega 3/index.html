@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa Urbana</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda de Ropa Urbana</h1>
+    </header>
+    <main>
+        <div class="form-container">
+          <label for="productName">Nombre del Producto:</label>
+          <input type="text" id="productName" placeholder="Nombre del Producto" />
+          <label for="productSize">Talla:</label>
+          <input type="text" id="productSize" placeholder="Talla" />
+          <label for="productPrice">Precio:</label>
+          <input type="text" id="productPrice" placeholder="Precio" />
+          <button id="addButton">Agregar al Carrito</button>
+        </div>
+        <div id="result"></div>
+        <div id="savedItems"></div>
+        <div id="total"></div>
+        <label for="buyerName">Nombre del Comprador:</label>
+        <input type="text" id="buyerName" placeholder="Nombre del Comprador" />
+        <button id="payButton">Pagar</button>
+      </main>
+
+    <script src="shop.js"></script>
+</body>
+</html>
